@@ -1,0 +1,66 @@
+.container {
+ 
+  background-color: #eee;
+  margin: auto;
+  padding:30px;
+  background-color: #FDF5E6;
+  
+
+}
+
+
+.Listinha {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(290px,1fr));
+  gap:20px;
+  
+}
+
+.NomeEUsuario {
+      background-color: #fff;
+      box-shadow: 0 0 10px rgb(0,0,0,0.2);
+      padding: 30px;
+      background-color: 	#FFFFF0;
+}
+.NomeEUsuario:hover{
+  transform: scale(0.95);
+}
+
+.rodape {
+  text-align: center;
+  background-color: #FFEBCD;
+  width: 750px;
+  margin: auto;
+  border-radius: 30px;
+  
+  
+}
+.ContainerBoca {
+  text-align: center;
+  
+}
+.boca{
+  background-color: #FFDEAD;
+  border-radius: 30px;
+  width: 200px;
+  margin:auto;
+}
+.ImputODA {
+  color: #F5DEB3;
+  width: 200px;
+  margin: auto;
+}
+.ODAS {
+  
+  display: flex;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  margin: auto;
+  border-radius: 30px;
+ 
+
+  background-color: #F5DEB3;
+}
+
+
